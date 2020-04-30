@@ -3,3 +3,4 @@ pyjwt
 passlib[bcrypt]
 schedule
 python-dotenv
+python-multipart

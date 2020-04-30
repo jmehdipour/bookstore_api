@@ -10,6 +10,8 @@ services:
 
   fast_api_app:
     build: .
+    env_file:
+      - config.env
     restart: always
     ports:
       - 8080:80
