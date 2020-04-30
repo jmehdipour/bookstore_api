@@ -1,0 +1,15 @@
+version: '2'
+services:
+  mongo:
+    image: mongo
+    restart: always
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: 2170066
+
+
+  fast_api_app:
+    build: .
+    restart: always
+    ports:
+      - 8080:80

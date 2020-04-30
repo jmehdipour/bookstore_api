@@ -1,0 +1,5 @@
+pymongo
+pyjwt
+passlib[bcrypt]
+schedule
+python-dotenv
